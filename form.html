@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h3>Contact Me Form</h3>
+    <form action="action.php">
+        <p> NAME</p><br>
+        <input type ="text" placeholder="Enter your name"><br>
+        <p>E-mail id</p><br>
+        <input type="text" placeholder="Enter your email-id"><br><br>
+        <p>Phone No.</p><br>
+        <input type="text" placeholder="Enter your phone number"><br><br>
+        <p>Select Batch</p><br>
+        <label for="101">
+            <input type="radio" value="K21" name="batch" id="101">K21
+        </label>
+        <label for="102">
+            <input type="radio" value="K22" name="batch" id="102"> K22
+        </label>
+        <label for="103">
+            <input type="radio" value="K23" name="batch" id="103"> K23
+        </label><br><br>
+        <p>Branch</p>
+        <label for="201">
+            <input type="radio" value="CSE" name="branch" id="201">CSE
+        </label>
+        <label for="202">
+            <input type="radio" value="ECE" name="branch" id="202">ECE
+        </label>
+        <label for="203">
+            <input type="radio" value="EEE" name="branch" id="203">EEE
+        </label>
+        <label for="204">
+            <input type="radio" value="MECH" name="branch" id="204">MECH
+        </label><br><br>
+        <textarea name="questions" id="questions"  placeholder="Ask your questions here." rows="7"></textarea><br><br>
+        <input type="submit" value="Submit Request">
+
+
+    </form>
+</body>
+</html>
